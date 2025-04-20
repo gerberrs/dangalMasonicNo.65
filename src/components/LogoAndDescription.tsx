@@ -34,7 +34,7 @@ const LogoAndDescription = () => {
           }`}
         >
           <h1 className="text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-4 text-shadow">
-            DANGAL MASONIC LODGE NO. 65
+            DANGAL MASONIC LODGE NO. 62
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 leading-relaxed tracking-wide uppercase">
             In Tagalog, <span className="italic">"Dangal"</span> means Honor.
