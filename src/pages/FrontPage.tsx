@@ -4,6 +4,7 @@ import ValuesSection from "@/components/ValuesSection";
 import ThreeCardLayout from "@/components/ThreeCardLayout";
 import SecRegistrationCard from "@/components/SecRegistrationCard";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import TriangleSection from "@/components/TriangleSection";
 
 const FrontPage = () => {
   const [showValues, setShowValues] = useState(false);
@@ -40,6 +41,7 @@ const FrontPage = () => {
         showValues={showValues}
         valuesSectionRef={valuesSectionRef}
       />
+      <TriangleSection />
 
       {/* Contact Us Section */}
       <div className="flex flex-col sm:flex-row justify-center items-center py-8 bg-[#2C2C2C] text-white mt-10">

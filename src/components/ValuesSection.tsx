@@ -38,7 +38,7 @@ const ValuesSection: React.FC<ValuesSectionProps> = ({
           isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-40"
         }`}
       >
-        <div className="flex w-full sm:w-[30%] mb-8 justify-center">
+        <div className="flex w-full sm:w-[30%]  justify-center">
           <div className="bg-[#2C2C2C] p-8 text-center shadow-md hover:scale-[1.02] transition-transform w-full rounded-lg">
             <h3 className="text-lg font-semibold text-white mt-4">Liberty</h3>
             <p className="text-gray-400 text-sm leading-relaxed mt-4">
@@ -47,7 +47,7 @@ const ValuesSection: React.FC<ValuesSectionProps> = ({
             </p>
           </div>
         </div>
-        <div className="flex w-full sm:w-[30%] mb-8 justify-center">
+        <div className="flex w-full sm:w-[30%]  justify-center">
           <div className="bg-[#2C2C2C] p-8 text-center shadow-md hover:scale-[1.02] transition-transform w-full rounded-lg">
             <h3 className="text-lg font-semibold text-white mt-4">Equality</h3>
             <p className="text-gray-400 text-sm leading-relaxed mt-4">
@@ -56,7 +56,7 @@ const ValuesSection: React.FC<ValuesSectionProps> = ({
             </p>
           </div>
         </div>
-        <div className="flex w-full sm:w-[30%] mb-8 justify-center">
+        <div className="flex w-full sm:w-[30%]  justify-center">
           <div className="bg-[#2C2C2C] p-8 text-center shadow-md hover:scale-[1.02] transition-transform w-full rounded-lg">
             <h3 className="text-lg font-semibold text-white mt-4">
               Fraternity
